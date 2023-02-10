@@ -1,20 +1,43 @@
+
+/* html overwrites */
 html {
     margin: 0 170px;
 }
 
+body {
+    line-height: 35.5px;
+}
+
+/* bootstrap additions */
 .nav-item {
     padding: 0 25px;
 }
 
+/* generic classes */
 .fullWidth {
     background-color: #f3f3f3;
     box-shadow: 0 0 0 100vmax #f3f3f3;
     clip-path: inset(0 -100vmax);
-    z-index: -100;
 }
 
-.mmLanding {
+.sectionPadding {
     padding-top: 73px;
+    padding-bottom: 54px;
+}
+
+.imagePadding {
+    padding: 10px;
+}
+
+.hr_vertical {
+    border-left: 1px solid #000;
+    margin: 0 10px;
+}
+
+/* landing section */
+
+.mmLanding.sectionPadding {
+    padding-bottom: 0;
 }
 
 .mmLanding__images {
@@ -34,3 +57,85 @@ html {
     height: 463px;
     margin-top: 397px;
 }
+
+/* research section */
+
+/* definition ideation section */
+
+/* prototyping section */
+
+#usabilityResults {
+    height: auto;
+    width: 75%;
+}
+
+#usabilityOutcomes {
+    height: auto;
+    width: 50%;
+}
+
+/* iteration section */
+
+.mmIterations__iteration {
+    padding: 30px;
+}
+
+.mmIterations__iteration.row{
+    justify-content: center;
+}
+
+#iterationNotifiationRow,
+#iterationMapRow {
+    position: relative;
+    left: -100px;
+}
+
+#iterationButtonRow {
+    position: relative;
+    left: 100px;
+}
+
+#iterationMapImage {
+    height: auto;
+    width: 150%;
+}
+
+/* final iteration section */
+
+.mmFinalIteration__content {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+/* conclusion section */
+
+.mmConclusion__buttons a:link,
+.mmConclusion__buttons a:visited,
+.mmConclusion__buttons a:hover,
+.mmConclusion__buttons a:active {
+    text-decoration: none;
+  }
+
+.mmConclusion__content {
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.mmConclusion__buttons span {
+    position: relative;
+    font-size: 40px;
+    top: 8px;
+}
+
+/* footer section */
+
+.mmFooter__socials {
+    display: flex;
+    padding-left: 50px;
+}
+
+.mycontent-left {
+    border-right: 1px dashed #333;
+  }

@@ -1,13 +1,36 @@
-body{
-    margin: 170px;
+html {
+    margin: 0 170px;
 }
 
-h1{
-    font-size: 40px;
+.nav-item {
+    padding: 0 25px;
 }
 
-.mmHeader{
+.fullWidth {
     background-color: #f3f3f3;
-    padding-top: 50px;
-    box-shadow: #f3f3f3;
+    box-shadow: 0 0 0 100vmax #f3f3f3;
+    clip-path: inset(0 -100vmax);
+    z-index: -100;
+}
+
+.mmLanding {
+    padding-top: 73px;
+}
+
+.mmLanding__images {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.mmLanding__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 463px;
+    margin-top: 397px;
 }
